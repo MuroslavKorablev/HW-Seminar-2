@@ -7,7 +7,7 @@ class Program {
             int number = int.Parse(Console.ReadLine());
 
             if (number >= 100 && number < 1000) {
-                int secondNumber = (number / 10) % 10;
+                int secondNumber = (number / 10) % 10;  
                 System.Console.WriteLine(secondNumber);
                 break;
             }
